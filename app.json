@@ -6,9 +6,9 @@
         "files",
         "stream"
     ],
-  "repository": "https://github.com/SudoR2spr/WOODStreamBot/",
+  "repository": "https://github.com/svnig7/WOODStreamBot",
   "success_url": "/",
-  "logo": "https://i.ibb.co/zSP9QNQ/Dl.png",
+  "logo": "https://envs.sh/rXm.jpg",
   "env": {
     "ENV": {
       "description": "Set this to True if you don't want to crash the bot",
