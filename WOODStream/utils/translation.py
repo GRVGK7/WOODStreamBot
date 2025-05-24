@@ -28,14 +28,13 @@ class LANG(object):
 <b>ғɪʟᴇ ʟɪɴᴋ :</b> <code>{}</code>\n"""
 
     STREAM_TEXT_X = """
-<b>ғɪʟᴇ ɴᴀᴍᴇ :</b> <b>{}</b>\n
+<b>ғɪʟᴇ ɴᴀᴍᴇ :</b> <code>{}</code>\n
 <b>ғɪʟᴇ sɪᴢᴇ :</b> <code>{}</code>\n
 <b>ᴅᴏᴡɴʟᴏᴀᴅ ʟɪɴᴋ :</b> <code>{}</code>\n
+<b>sᴛʀᴇᴀᴍ ʟɪɴᴋ :</b> <code>{}</code>\n
 <b>ғɪʟᴇ ʟɪɴᴋ :</b> <code>{}</code>\n"""
 
-
     BAN_TEXT = "sᴏʀʀʏ sɪʀ, ʏᴏᴜ ᴀʀᴇ ʙᴀɴɴᴇᴅ ᴛᴏ ᴜsᴇ ᴍᴇ\n\n**[ ᴄᴏɴᴛᴀᴄᴛ ᴅᴇᴠ ](tg://user?id={}) ᴛʜᴇʏ ᴡɪʟʟ ʜᴇʟᴘ ʏᴏᴜ**"
-
 
 class BUTTON(object):
     START_BUTTONS = InlineKeyboardMarkup(
