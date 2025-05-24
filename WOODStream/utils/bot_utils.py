@@ -91,7 +91,7 @@ async def gen_link(_id):
     deep_link = f"https://t.me/{WOODStream.username}?start=file_{_id}"
 
     if "video" in mime_type:
-        stream_text = LANG.STREAM_TEXT.format(file_name, file_size, stream_link, page_link, file_link)
+        stream_text = LANG.STREAM_TEXT.format(file_name, file_size, page_link, stream_link, file_link)
         reply_markup = InlineKeyboardMarkup(
             [
                 [InlineKeyboardButton("sᴛʀᴇᴀᴍ", url=page_link), InlineKeyboardButton("ᴅᴏᴡɴʟᴏᴀᴅ", url=stream_link)],
@@ -100,7 +100,7 @@ async def gen_link(_id):
             ]
         )
     else:
-        stream_text = LANG.STREAM_TEXT_X.format(file_name, file_size, stream_link, page_link, file_link)
+        stream_text = LANG.STREAM_TEXT_X.format(file_name, file_size, page_link, stream_link, file_link)
         reply_markup = InlineKeyboardMarkup(
             [
                 [InlineKeyboardButton("ᴅᴏᴡɴʟᴏᴀᴅ", url=stream_link)],
@@ -124,7 +124,7 @@ async def gen_linkx(m:Message , _id, name: list):
     deep_link = f"https://t.me/{WOODStream.username}?start=file_{_id}"
 
     if "video" in mime_type:
-        stream_text= LANG.STREAM_TEXT_X.format(file_name, file_size, stream_link, page_link, file_link)
+        stream_text= LANG.STREAM_TEXT_X.format(file_name, file_size, page_link, stream_link, file_link)
         reply_markup = InlineKeyboardMarkup(
             [
                 [InlineKeyboardButton("sᴛʀᴇᴀᴍ", url=page_link), InlineKeyboardButton("ᴅᴏᴡɴʟᴏᴀᴅ", url=stream_link)],
@@ -132,7 +132,7 @@ async def gen_linkx(m:Message , _id, name: list):
             ]
         )
     else:
-        stream_text= LANG.STREAM_TEXT_X.format(file_name, file_size, stream_link, page_link, file_link)
+        stream_text= LANG.STREAM_TEXT_X.format(file_name, file_size, page_link, stream_link, file_link)
         reply_markup = InlineKeyboardMarkup(
             [
                 [InlineKeyboardButton("ᴅᴏᴡɴʟᴏᴀᴅ", url=stream_link)],
