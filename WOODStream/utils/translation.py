@@ -23,15 +23,15 @@ class LANG(object):
     STREAM_TEXT = """
 <b>ғɪʟᴇ ɴᴀᴍᴇ :</b> <code>{}</code>
 <b>ғɪʟᴇ sɪᴢᴇ :</b> <code>{}</code>
-<b>ᴅᴏᴡɴʟᴏᴀᴅ ʟɪɴᴋ :</b> <code>{}</code>
 <b>sᴛʀᴇᴀᴍ ʟɪɴᴋ :</b> <code>{}</code>
+<b>ᴅᴏᴡɴʟᴏᴀᴅ ʟɪɴᴋ :</b> <code>{}</code>
 <b>ғɪʟᴇ ʟɪɴᴋ :</b> <code>{}</code>"""
 
     STREAM_TEXT_X = """
 <b>ғɪʟᴇ ɴᴀᴍᴇ :</b> <code>{}</code>
 <b>ғɪʟᴇ sɪᴢᴇ :</b> <code>{}</code>
-<b>ᴅᴏᴡɴʟᴏᴀᴅ ʟɪɴᴋ :</b> <code>{}</code>
 <b>sᴛʀᴇᴀᴍ ʟɪɴᴋ :</b> <code>{}</code>
+<b>ᴅᴏᴡɴʟᴏᴀᴅ ʟɪɴᴋ :</b> <code>{}</code>
 <b>ғɪʟᴇ ʟɪɴᴋ :</b> <code>{}</code>"""
 
     BAN_TEXT = "sᴏʀʀʏ sɪʀ, ʏᴏᴜ ᴀʀᴇ ʙᴀɴɴᴇᴅ ᴛᴏ ᴜsᴇ ᴍᴇ\n\n**[ ᴄᴏɴᴛᴀᴄᴛ ᴅᴇᴠ ](tg://user?id={}) ᴛʜᴇʏ ᴡɪʟʟ ʜᴇʟᴘ ʏᴏᴜ**"
