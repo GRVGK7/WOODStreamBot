@@ -48,7 +48,7 @@ async def is_user_joined(bot, message: Message):
                 parse_mode=ParseMode.HTML,
                 reply_markup=InlineKeyboardMarkup(
                 [[
-                    InlineKeyboardButton("", url=invite_link.invite_link)
+                    InlineKeyboardButton("❆ ᴊᴏɪɴ ᴏᴜʀ ᴄʜᴀɴɴᴇʟ ❆", url=invite_link.invite_link)
                 ]]
                 )
             )
