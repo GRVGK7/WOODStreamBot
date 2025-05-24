@@ -136,7 +136,7 @@ async def gen_linkx(m:Message , _id, name: list):
         reply_markup = InlineKeyboardMarkup(
             [
                 [InlineKeyboardButton("ᴅᴏᴡɴʟᴏᴀᴅ", url=stream_link)],
-                [InlineKeyboardButton("ɢᴇᴛ ғɪʟᴇ", url=file_link)
+                [InlineKeyboardButton("ɢᴇᴛ ғɪʟᴇ", url=file_link)]
             ]
         )
     return reply_markup, stream_text
