@@ -21,7 +21,7 @@ class LANG(object):
 """
 
     STREAM_TEXT = """
-<b>ғɪʟᴇ ɴᴀᴍᴇ :</b> <b>{}</b>\n
+<b>ғɪʟᴇ ɴᴀᴍᴇ :</b> <code>{}</code>\n
 <b>ғɪʟᴇ sɪᴢᴇ :</b> <code>{}</code>\n
 <b>ᴅᴏᴡɴʟᴏᴀᴅ ʟɪɴᴋ :</b> <code>{}</code>\n
 <b>sᴛʀᴇᴀᴍ ʟɪɴᴋ :</b> <code>{}</code>\n
