@@ -135,11 +135,7 @@ async def media_streamer(request: web.Request, db_id: str):
         },
     )
 
-@routes.get("/file/{file_id}")
+@routes.get("/file/{_id}")
 async def file_deeplink(request: web.Request):
-    file_id = int(request.match_info["file_id"])
-    code = request.rel_url.query.get("code")
-    if not code:
-        raise web.HTTPUnauthorized(text="Unauthorized")
-
-    raise web.HTTPFound(f"https://t.me/{Telegram.BOT_USERNAME}?start=file_{file_id}_{code}")
+    _id = int(request.match_info["_id"])
+    raise web.HTTPFound(f"https://t.me/{WOODStream.username}?start=file_{_id}")
