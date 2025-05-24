@@ -45,14 +45,14 @@ async def cb_data(bot, update: CallbackQuery):
     elif usr_cmd[0] == "msgdelete":
         await update.message.edit_caption(
         caption= "**ᴄᴏɴғɪʀᴍ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ ᴅᴇʟᴇᴛᴇ ᴛʜᴇ ғɪʟᴇ**\n\n",
-        reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("", callback_data=f"msgdelyes_{usr_cmd[1]}_{usr_cmd[2]}"), InlineKeyboardButton("ɴᴏ", callback_data=f"myfile_{usr_cmd[1]}_{usr_cmd[2]}")]])
+        reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("ʏᴇs", callback_data=f"msgdelyes_{usr_cmd[1]}_{usr_cmd[2]}"), InlineKeyboardButton("ɴᴏ", callback_data=f"myfile_{usr_cmd[1]}_{usr_cmd[2]}")]])
     )
     elif usr_cmd[0] == "msgdelyes":
         await delete_user_file(usr_cmd[1], int(usr_cmd[2]), update)
         return
     elif usr_cmd[0] == "msgdelpvt":
         await update.message.edit_caption(
-        caption= "**Cᴏɴғɪʀᴍ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ ᴅᴇʟᴇᴛᴇ ᴛʜᴇ Fɪʟᴇ**\n\n",
+        caption= "**ᴄᴏɴғɪʀᴍ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ ᴅᴇʟᴇᴛᴇ ᴛʜᴇ ғɪʟᴇ**\n\n",
         reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("ʏᴇs", callback_data=f"msgdelpvtyes_{usr_cmd[1]}"), InlineKeyboardButton("ɴᴏ", callback_data=f"mainstream_{usr_cmd[1]}")]])
     )
     elif usr_cmd[0] == "msgdelpvtyes":
