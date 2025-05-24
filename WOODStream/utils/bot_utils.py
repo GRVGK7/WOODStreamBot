@@ -127,14 +127,16 @@ async def gen_linkx(m:Message , _id, name: list):
         stream_text= LANG.STREAM_TEXT_X.format(file_name, file_size, page_link, stream_link, file_link)
         reply_markup = InlineKeyboardMarkup(
             [
-                [InlineKeyboardButton("sᴛʀᴇᴀᴍ", url=page_link), InlineKeyboardButton("ᴅᴏᴡɴʟᴏᴀᴅ", url=stream_link)]
+                [InlineKeyboardButton("sᴛʀᴇᴀᴍ", url=page_link), InlineKeyboardButton("ᴅᴏᴡɴʟᴏᴀᴅ", url=stream_link)],
+                [InlineKeyboardButton("ɢᴇᴛ ғɪʟᴇ", url=file_link)]
             ]
         )
     else:
         stream_text= LANG.STREAM_TEXT_X.format(file_name, file_size, stream_link, file_link)
         reply_markup = InlineKeyboardMarkup(
             [
-                [InlineKeyboardButton("ᴅᴏᴡɴʟᴏᴀᴅ", url=stream_link)]
+                [InlineKeyboardButton("ᴅᴏᴡɴʟᴏᴀᴅ", url=stream_link)],
+                [InlineKeyboardButton("ɢᴇᴛ ғɪʟᴇ", url=file_link)
             ]
         )
     return reply_markup, stream_text
